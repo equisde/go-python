@@ -1,9 +1,9 @@
 go-python
 =========
 
-[![Build Status](https://travis-ci.org/sbinet/go-python.svg?branch=master)](https://travis-ci.org/sbinet/go-python)
-[![Build status](https://ci.appveyor.com/api/projects/status/n0ujg8no487a89vo/branch/master?svg=true)](https://ci.appveyor.com/project/sbinet/go-python/branch/master)
-[![GoDocs](https://godocs.io/github.com/sbinet/go-python?status.svg)](https://godocs.io/github.com/sbinet/go-python)
+[![Build Status](https://travis-ci.org/equisde/go-python.svg?branch=master)](https://travis-ci.org/equisde/go-python)
+[![Build status](https://ci.appveyor.com/api/projects/status/n0ujg8no487a89vo/branch/master?svg=true)](https://ci.appveyor.com/project/equisde/go-python/branch/master)
+[![GoDocs](https://godocs.io/github.com/equisde/go-python?status.svg)](https://godocs.io/github.com/equisde/go-python)
 
 Naive `go` bindings towards the C-API of CPython-2.
 
@@ -33,7 +33,7 @@ not standardised across distributions and OSes, so you may have to
 edit the ``cgoflags.go`` file accordingly.
 
 ```sh
- $ go get github.com/sbinet/go-python
+ $ go get github.com/equisde/go-python
 ```
 
 If ``go get`` + ``pkg-config`` failed:
@@ -51,7 +51,7 @@ Documentation
 
 Is available on ``godocs``:
 
- https://godocs.io/github.com/sbinet/go-python
+ https://godocs.io/github.com/equisde/go-python
 
 
 Example:
@@ -61,7 +61,7 @@ Example:
 package main
 
 import "fmt"
-import "github.com/sbinet/go-python"
+import "github.com/equisde/go-python"
 
 func init() {
    err := python.Initialize()

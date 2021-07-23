@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/sbinet/go-python"
+	"github.com/equisde/go-python"
 )
 
 func init() {

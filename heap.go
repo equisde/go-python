@@ -13,7 +13,7 @@ var (
 )
 
 // cpyMethodDefs creates a C-array of C.PyMethodDef, with a {0} sentinel
-// FIXME(sbinet) convert 'methods' to a *C.PyMethodDef
+// FIXME(equisde) convert 'methods' to a *C.PyMethodDef
 func cpyMethodDefs(name string, methods []PyMethodDef) *C.PyMethodDef {
 	if len(methods) <= 0 {
 		return nil

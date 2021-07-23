@@ -3,7 +3,7 @@ package python_test
 import (
 	"testing"
 
-	python "github.com/sbinet/go-python"
+	python "github.com/equisde/go-python"
 )
 
 func TestProgramName(t *testing.T) {

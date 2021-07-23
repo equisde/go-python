@@ -1,6 +1,6 @@
 build: off
 
-clone_folder: c:\gopath\src\github.com\sbinet\go-python
+clone_folder: c:\gopath\src\github.com\equisde\go-python
 
 cache:
   - '%LocalAppData%\\go-build'

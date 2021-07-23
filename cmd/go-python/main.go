@@ -2,8 +2,9 @@
 package main
 
 import (
-	"github.com/sbinet/go-python"
 	"os"
+
+	"github.com/equisde/go-python"
 )
 
 func init() {

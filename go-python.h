@@ -1,7 +1,7 @@
 #ifndef GOPYTHON_GOPYTHON_H
 #define GOPYTHON_GOPYTHON_H 1
 
-#include <Python.h>
+#include "C:\python39\include\Python.h"
 
 #include "frameobject.h"
 #include "marshal.h"
